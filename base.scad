@@ -5,11 +5,11 @@ module organizer_base()
     difference()
     {
         // Main body
-        cube([240,220,200]);
+        cube([240,220,30]);
 
         // Hollow space
         translate([3,3,3])
-        cube([234,214,194]);
+        cube([234,214,27]);
     }
 
     // Center divider

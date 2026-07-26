@@ -6,7 +6,7 @@ include <sticky_notes.scad>
 include <trays.scad>
 include <card_holder.scad>
 
-organizer_base();
+// organizer_base();
 
 // Upper row
 translate([10,10,0])
