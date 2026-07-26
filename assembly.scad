@@ -15,6 +15,7 @@ include <scissor_holder.scad>
 include <sticky_notes.scad>
 include <trays.scad>
 include <card_holder.scad>
+include <accessories.scad>
 
 
 // =========================
@@ -109,6 +110,10 @@ business_card_holder();
 
 translate([BOOKMARK_X,BOOKMARK_Y,0])
 bookmark_holder();
+
+translate([DRAWER_X,DRAWER_Y,0])
+drawer();
+phone_dock();
 
 // =========================
 // BUSINESS CARDS

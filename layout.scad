@@ -35,3 +35,22 @@ CARD_Y = 180;
 
 BOOKMARK_X = 140;
 BOOKMARK_Y = 185;
+
+// ===========================
+// ACCESSORIES
+// ===========================
+
+DRAWER_X = 20;
+DRAWER_Y = 110;
+
+PHONE_X = 130;
+PHONE_Y = 110;
+
+USB_X = 130;
+USB_Y = 170;
+
+CABLE_X = 60;
+CABLE_Y = 195;
+
+NAMEPLATE_X = 60;
+NAMEPLATE_Y = 210;

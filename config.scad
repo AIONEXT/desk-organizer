@@ -106,6 +106,22 @@ PHONE_DOCK_DEPTH  = 80;
 PHONE_DOCK_HEIGHT = 70;
 
 // ===========================
+// ACCESSORIES
+// ===========================
+
+DRAWER_LENGTH = 100;
+DRAWER_WIDTH  = 80;
+DRAWER_HEIGHT = 35;
+
+USB_LENGTH = 80;
+USB_WIDTH  = 40;
+USB_HEIGHT = 25;
+
+CABLE_LENGTH = 120;
+CABLE_WIDTH  = 25;
+CABLE_HEIGHT = 15;
+
+// ===========================
 // VALIDATION
 // ===========================
 
