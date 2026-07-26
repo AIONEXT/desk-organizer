@@ -5,6 +5,12 @@ include <scissor_holder.scad>
 include <sticky_notes.scad>
 include <trays.scad>
 include <card_holder.scad>
+include <phone_dock.scad>
+include <usb_holder.scad>
+include <drawer.scad>
+include <ruler_slot.scad>
+
+
 
 // organizer_base();
 
@@ -36,3 +42,19 @@ medium_tray();
 // Business cards
 translate([10,180,0])
 card_holder();
+
+// Phone dock
+translate([130,130,0])
+phone_dock();
+
+// USB holder
+translate([130,180,0])
+usb_holder();
+
+// Hidden drawer
+translate([10,120,0])
+drawer();
+
+// Ruler slot
+translate([70,180,0])
+ruler_slot();
