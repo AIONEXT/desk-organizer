@@ -10,8 +10,6 @@ include <usb_holder.scad>
 include <drawer.scad>
 include <ruler_slot.scad>
 
-
-
 // organizer_base();
 
 // Upper row
@@ -58,3 +56,26 @@ drawer();
 // Ruler slot
 translate([70,180,0])
 ruler_slot();
+
+color("white")
+rounded_base();
+
+color("blue")
+translate([30,30,0])
+pencil_holder();
+
+color("blue")
+translate([100,30,0])
+marker_holder();
+
+color("blue")
+translate([180,30,0])
+scissor_holder();
+
+color("red")
+translate([120,120,0])
+phone_dock();
+
+color("red")
+translate([120,180,0])
+usb_holder();

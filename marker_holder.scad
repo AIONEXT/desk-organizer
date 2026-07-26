@@ -2,9 +2,9 @@ module marker_holder()
 {
     difference()
     {
-        cube([50,50,120]);
+        cylinder(h=120,r=30,$fn=60);
 
-        translate([3,3,3])
-        cube([44,44,117]);
+        translate([0,0,3])
+        cylinder(h=120,r=27,$fn=60);
     }
 }

@@ -2,9 +2,9 @@ module scissor_holder()
 {
     difference()
     {
-        cube([70,60,120]);
+        cylinder(h=120,r=40,$fn=60);
 
-        translate([3,3,3])
-        cube([64,54,117]);
+        translate([0,0,3])
+        cylinder(h=120,r=37,$fn=60);
     }
 }

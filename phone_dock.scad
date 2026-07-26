@@ -2,10 +2,10 @@ module phone_dock()
 {
     difference()
     {
-        cube([90,80,70]);
+        cube([90,90,70]);
 
-        // Phone slot
-        translate([10,20,10])
-        cube([70,15,80]);
+        translate([10,15,10])
+        rotate([15,0,0])
+        cube([70,15,90]);
     }
 }
