@@ -1,18 +1,31 @@
-// Executive Desk Organizer Base
+include <config.scad>
 
 module organizer_base()
 {
     difference()
     {
-        // Main body
-        cube([240,220,30]);
+        // Outer shell
+        cube([ORG_LENGTH, ORG_WIDTH, ORG_HEIGHT]);
 
-        // Hollow space
-        translate([3,3,3])
-        cube([234,214,27]);
+        // Hollow cavity
+        translate([WALL, WALL, WALL])
+        cube([
+            ORG_LENGTH - (2 * WALL),
+            ORG_WIDTH  - (2 * WALL),
+            ORG_HEIGHT - (2 * WALL)
+        ]);
     }
 
-    // Center divider
-    translate([120,0,0])
-    cube([3,220,200]);
+    // Structural divider
+   translate([
+    ORG_LENGTH/2 - DIVIDER_THICKNESS/2,
+    0,
+    0
+])
+cube([
+    DIVIDER_THICKNESS,
+    ORG_WIDTH,
+    ORG_HEIGHT
+]);
+
 }
